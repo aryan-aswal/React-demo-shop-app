@@ -1,0 +1,51 @@
+*{
+    color: white;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    border-bottom: 1px solid black;
+}
+.product-details {
+    width: 30%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.date {
+    width: 17%;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid white;
+}
+span {
+    display: block;
+}
+.name {
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+button {
+    all: unset;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.price {
+    margin-block:7px;
+}
+.month {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.day {
+    font-weight: 800;
+    font-size: 2rem;
+}
